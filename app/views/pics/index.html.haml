@@ -5,4 +5,4 @@
 			%h2= link_to pic.title, pic
 			%p.user
 				Submitted by
-				= pic.user.email
+				= pic.user.email if pic.user
